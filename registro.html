@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="La tienda donde encontrarás todo lo necesario para mantenerte en forma"
+    />
+    <meta name="keywords" content="ropa de deporte, fitness, fútbol" />
+    <title>Deportes Paco</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">
+              <h1>Deportes Paco</h1>
+              <img src="./assets/Logo.png" alt="Logotipo Deportes Paco" />
+            </a>
+          </li>
+          <li>
+            <a href="#null">Deportes</a>
+          </li>
+          <li>
+            <a href="#null">Hombre</a>
+          </li>
+          <li>
+            <a href="#null">Mujer</a>
+          </li>
+          <li>
+            <a href="#null">Niños</a>
+          </li>
+          <li>
+            <a href="#null">Descuentos</a>
+          </li>
+          <li>
+            <a href="registro.html">Hazte miembro</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Formulario de registro</h2>
+      <form action="#null" method="post">
+        <input
+          type="email"
+          id="email"
+          name="correo"
+          placeholder="Correo electrónico"
+          required
+        />
+        <input
+          type="password"
+          id="password"
+          name="contraseña"
+          placeholder="Contraseña"
+          maxlength="15"
+          required
+        />
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" maxlength="20" required />
+        <label for="surname">Apellidos:</label>
+        <input
+          type="text"
+          id="surname"
+          name="surname"
+          maxlength="20"
+          required
+        />
+        <label for="birthday">Fecha de nacimiento:</label>
+        <input type="date" id="birthday" name="birthday" required />
+        <label for="sex">Sexo:</label>
+        <select id="sex" name="sex">
+          <option value="">-Seleccione una opción-</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
+        <label for="street">Dirección:</label>
+        <input type="text" id="street" name="street" maxlength="50" required />
+        <label for="city">Ciudad:</label>
+        <input type="text" id="city" name="city" maxlength="20" required />
+        <label for="country">País:</label>
+        <input
+          type="text"
+          id="country"
+          name="country"
+          maxlength="20"
+          required
+        />
+        <input type="submit" value="Registrarse" />
+        <input type="reset" value="Restablecer formulario" />
+      </form>
+    </main>
+    <footer>
+      <a href="#null">
+        <img src="./assets/instagram.png" alt="Instagram" width="100" />
+      </a>
+      <a href="#null">
+        <img src="./assets/x.png" alt="X" width="100" />
+      </a>
+      <a href="#null">
+        <img src="./assets/facebook.png" alt="Facebook" width="100" />
+      </a>
+      <p>Copyright &copy; 2024 - Dev</p>
+      <a href="#null">Política de privacidad</a>
+    </footer>
+  </body>
+</html>
